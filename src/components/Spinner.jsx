@@ -5,7 +5,7 @@ const override = {
   margin: '0 auto',
 };
 
-const Spinner = ({ color = '#000000', size = '15' }) => {
+const Spinner = ({ color = '#000000', size = '15px' }) => {
   return (
     <BeatLoader
       color={color}
